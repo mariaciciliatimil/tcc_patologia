@@ -1,0 +1,53 @@
+.admin-dashboard h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.admin-dashboard form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.admin-dashboard form div {
+  margin-bottom: 15px;
+}
+.admin-dashboard form div label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.admin-dashboard form div input,
+.admin-dashboard form div select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+.admin-dashboard form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-dashboard form button:hover {
+  background-color: #0056b3;
+}
+.admin-dashboard h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+.admin-dashboard table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.admin-dashboard table th,
+.admin-dashboard table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+.admin-dashboard table th {
+  background-color: #f4f4f4;
+}/*# sourceMappingURL=AdminDashboard.css.map */
